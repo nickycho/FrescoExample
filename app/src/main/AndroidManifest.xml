@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nickycho.frescoexample" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LowToHighResolution"
+            android:label="@string/title_activity_low_to_high_resolution" >
+        </activity>
+        <activity
+            android:name=".CircleAndCorner"
+            android:label="@string/title_activity_circle_and_corner" >
+        </activity>
+        <activity
+            android:name=".Progressive"
+            android:label="@string/title_activity_progressive" >
+        </activity>
+        <activity
+            android:name=".MultipleImage"
+            android:label="@string/title_activity_multiple_image" >
+        </activity>
+        <activity
+            android:name=".AnimatedImage"
+            android:label="@string/title_activity_animated_image" >
+        </activity>
+    </application>
+
+</manifest>

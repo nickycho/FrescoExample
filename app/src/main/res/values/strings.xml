@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FrescoExample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_low_to_high_resolution">LowToHighResolution</string>
+    <string name="title_activity_circle_and_corner">CircleAndCorner</string>
+    <string name="title_activity_progressive">Progressive</string>
+    <string name="title_activity_multiple_image">MultipleImage</string>
+    <string name="title_activity_animated_image">AnimatedImage</string>
+</resources>
